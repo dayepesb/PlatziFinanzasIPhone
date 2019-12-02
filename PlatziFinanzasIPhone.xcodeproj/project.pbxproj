@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		805DB3282395A054001C3138 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805DB3272395A054001C3138 /* AppDelegate.swift */; };
+		805DB32A2395A054001C3138 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805DB3292395A054001C3138 /* ViewController.swift */; };
+		805DB32D2395A054001C3138 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805DB32B2395A054001C3138 /* Main.storyboard */; };
+		805DB32F2395A056001C3138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805DB32E2395A056001C3138 /* Assets.xcassets */; };
+		805DB3322395A056001C3138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805DB3302395A056001C3138 /* LaunchScreen.storyboard */; };
+		805DB33D2395A056001C3138 /* PlatziFinanzasIPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805DB33C2395A056001C3138 /* PlatziFinanzasIPhoneTests.swift */; };
+		805DB3482395A056001C3138 /* PlatziFinanzasIPhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805DB3472395A056001C3138 /* PlatziFinanzasIPhoneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		805DB3392395A056001C3138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 805DB31C2395A054001C3138 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 805DB3232395A054001C3138;
+			remoteInfo = PlatziFinanzasIPhone;
+		};
+		805DB3442395A056001C3138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 805DB31C2395A054001C3138 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 805DB3232395A054001C3138;
+			remoteInfo = PlatziFinanzasIPhone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		805DB3242395A054001C3138 /* PlatziFinanzasIPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatziFinanzasIPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		805DB3272395A054001C3138 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		805DB3292395A054001C3138 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		805DB32C2395A054001C3138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		805DB32E2395A056001C3138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		805DB3312395A056001C3138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		805DB3332395A056001C3138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		805DB3382395A056001C3138 /* PlatziFinanzasIPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatziFinanzasIPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		805DB33C2395A056001C3138 /* PlatziFinanzasIPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatziFinanzasIPhoneTests.swift; sourceTree = "<group>"; };
+		805DB33E2395A056001C3138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		805DB3432395A056001C3138 /* PlatziFinanzasIPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatziFinanzasIPhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		805DB3472395A056001C3138 /* PlatziFinanzasIPhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatziFinanzasIPhoneUITests.swift; sourceTree = "<group>"; };
+		805DB3492395A056001C3138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		805DB3212395A054001C3138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805DB3352395A056001C3138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805DB3402395A056001C3138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		805DB31B2395A054001C3138 = {
+			isa = PBXGroup;
+			children = (
+				805DB3262395A054001C3138 /* PlatziFinanzasIPhone */,
+				805DB33B2395A056001C3138 /* PlatziFinanzasIPhoneTests */,
+				805DB3462395A056001C3138 /* PlatziFinanzasIPhoneUITests */,
+				805DB3252395A054001C3138 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		805DB3252395A054001C3138 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				805DB3242395A054001C3138 /* PlatziFinanzasIPhone.app */,
+				805DB3382395A056001C3138 /* PlatziFinanzasIPhoneTests.xctest */,
+				805DB3432395A056001C3138 /* PlatziFinanzasIPhoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		805DB3262395A054001C3138 /* PlatziFinanzasIPhone */ = {
+			isa = PBXGroup;
+			children = (
+				805DB3272395A054001C3138 /* AppDelegate.swift */,
+				805DB3292395A054001C3138 /* ViewController.swift */,
+				805DB32B2395A054001C3138 /* Main.storyboard */,
+				805DB32E2395A056001C3138 /* Assets.xcassets */,
+				805DB3302395A056001C3138 /* LaunchScreen.storyboard */,
+				805DB3332395A056001C3138 /* Info.plist */,
+			);
+			path = PlatziFinanzasIPhone;
+			sourceTree = "<group>";
+		};
+		805DB33B2395A056001C3138 /* PlatziFinanzasIPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				805DB33C2395A056001C3138 /* PlatziFinanzasIPhoneTests.swift */,
+				805DB33E2395A056001C3138 /* Info.plist */,
+			);
+			path = PlatziFinanzasIPhoneTests;
+			sourceTree = "<group>";
+		};
+		805DB3462395A056001C3138 /* PlatziFinanzasIPhoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				805DB3472395A056001C3138 /* PlatziFinanzasIPhoneUITests.swift */,
+				805DB3492395A056001C3138 /* Info.plist */,
+			);
+			path = PlatziFinanzasIPhoneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		805DB3232395A054001C3138 /* PlatziFinanzasIPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805DB34C2395A056001C3138 /* Build configuration list for PBXNativeTarget "PlatziFinanzasIPhone" */;
+			buildPhases = (
+				805DB3202395A054001C3138 /* Sources */,
+				805DB3212395A054001C3138 /* Frameworks */,
+				805DB3222395A054001C3138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlatziFinanzasIPhone;
+			productName = PlatziFinanzasIPhone;
+			productReference = 805DB3242395A054001C3138 /* PlatziFinanzasIPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		805DB3372395A056001C3138 /* PlatziFinanzasIPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805DB34F2395A056001C3138 /* Build configuration list for PBXNativeTarget "PlatziFinanzasIPhoneTests" */;
+			buildPhases = (
+				805DB3342395A056001C3138 /* Sources */,
+				805DB3352395A056001C3138 /* Frameworks */,
+				805DB3362395A056001C3138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				805DB33A2395A056001C3138 /* PBXTargetDependency */,
+			);
+			name = PlatziFinanzasIPhoneTests;
+			productName = PlatziFinanzasIPhoneTests;
+			productReference = 805DB3382395A056001C3138 /* PlatziFinanzasIPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		805DB3422395A056001C3138 /* PlatziFinanzasIPhoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805DB3522395A056001C3138 /* Build configuration list for PBXNativeTarget "PlatziFinanzasIPhoneUITests" */;
+			buildPhases = (
+				805DB33F2395A056001C3138 /* Sources */,
+				805DB3402395A056001C3138 /* Frameworks */,
+				805DB3412395A056001C3138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				805DB3452395A056001C3138 /* PBXTargetDependency */,
+			);
+			name = PlatziFinanzasIPhoneUITests;
+			productName = PlatziFinanzasIPhoneUITests;
+			productReference = 805DB3432395A056001C3138 /* PlatziFinanzasIPhoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		805DB31C2395A054001C3138 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "David Yepes Buitrago";
+				TargetAttributes = {
+					805DB3232395A054001C3138 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					805DB3372395A056001C3138 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 805DB3232395A054001C3138;
+					};
+					805DB3422395A056001C3138 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 805DB3232395A054001C3138;
+					};
+				};
+			};
+			buildConfigurationList = 805DB31F2395A054001C3138 /* Build configuration list for PBXProject "PlatziFinanzasIPhone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 805DB31B2395A054001C3138;
+			productRefGroup = 805DB3252395A054001C3138 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				805DB3232395A054001C3138 /* PlatziFinanzasIPhone */,
+				805DB3372395A056001C3138 /* PlatziFinanzasIPhoneTests */,
+				805DB3422395A056001C3138 /* PlatziFinanzasIPhoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		805DB3222395A054001C3138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805DB3322395A056001C3138 /* LaunchScreen.storyboard in Resources */,
+				805DB32F2395A056001C3138 /* Assets.xcassets in Resources */,
+				805DB32D2395A054001C3138 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805DB3362395A056001C3138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805DB3412395A056001C3138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		805DB3202395A054001C3138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805DB32A2395A054001C3138 /* ViewController.swift in Sources */,
+				805DB3282395A054001C3138 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805DB3342395A056001C3138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805DB33D2395A056001C3138 /* PlatziFinanzasIPhoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805DB33F2395A056001C3138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805DB3482395A056001C3138 /* PlatziFinanzasIPhoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		805DB33A2395A056001C3138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 805DB3232395A054001C3138 /* PlatziFinanzasIPhone */;
+			targetProxy = 805DB3392395A056001C3138 /* PBXContainerItemProxy */;
+		};
+		805DB3452395A056001C3138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 805DB3232395A054001C3138 /* PlatziFinanzasIPhone */;
+			targetProxy = 805DB3442395A056001C3138 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		805DB32B2395A054001C3138 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				805DB32C2395A054001C3138 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		805DB3302395A056001C3138 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				805DB3312395A056001C3138 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		805DB34A2395A056001C3138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		805DB34B2395A056001C3138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		805DB34D2395A056001C3138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlatziFinanzasIPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.yepes.PlatziFinanzasIPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		805DB34E2395A056001C3138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlatziFinanzasIPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.yepes.PlatziFinanzasIPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		805DB3502395A056001C3138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlatziFinanzasIPhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.yepes.PlatziFinanzasIPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlatziFinanzasIPhone.app/PlatziFinanzasIPhone";
+			};
+			name = Debug;
+		};
+		805DB3512395A056001C3138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlatziFinanzasIPhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.yepes.PlatziFinanzasIPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlatziFinanzasIPhone.app/PlatziFinanzasIPhone";
+			};
+			name = Release;
+		};
+		805DB3532395A056001C3138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlatziFinanzasIPhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.yepes.PlatziFinanzasIPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlatziFinanzasIPhone;
+			};
+			name = Debug;
+		};
+		805DB3542395A056001C3138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlatziFinanzasIPhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.com.yepes.PlatziFinanzasIPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlatziFinanzasIPhone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		805DB31F2395A054001C3138 /* Build configuration list for PBXProject "PlatziFinanzasIPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805DB34A2395A056001C3138 /* Debug */,
+				805DB34B2395A056001C3138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		805DB34C2395A056001C3138 /* Build configuration list for PBXNativeTarget "PlatziFinanzasIPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805DB34D2395A056001C3138 /* Debug */,
+				805DB34E2395A056001C3138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		805DB34F2395A056001C3138 /* Build configuration list for PBXNativeTarget "PlatziFinanzasIPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805DB3502395A056001C3138 /* Debug */,
+				805DB3512395A056001C3138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		805DB3522395A056001C3138 /* Build configuration list for PBXNativeTarget "PlatziFinanzasIPhoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805DB3532395A056001C3138 /* Debug */,
+				805DB3542395A056001C3138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 805DB31C2395A054001C3138 /* Project object */;
+}
