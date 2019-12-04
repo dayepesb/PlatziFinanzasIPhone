@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="t4F-E4-z2N">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -105,32 +106,41 @@
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wqu-Oj-LGQ">
                                         <rect key="frame" x="271" y="107" width="123" height="30"/>
-                                        <state key="normal" title="Forgot Passsword"/>
+                                        <state key="normal" title="Forgot Passsword">
+                                            <color key="titleColor" name="Secondary Text"/>
+                                        </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8O-Bk-Ui3">
-                                        <rect key="frame" x="20" y="191" width="374" height="35"/>
-                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rrp-QD-DTe">
+                                        <rect key="frame" x="20" y="181" width="374" height="35"/>
+                                        <color key="backgroundColor" name="Primary"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="35" id="0u3-Iz-4vv"/>
+                                            <constraint firstAttribute="height" constant="35" id="u9H-E6-Rgy"/>
                                         </constraints>
-                                        <state key="normal" title="Sign In"/>
+                                        <state key="normal" title="Sing In">
+                                            <color key="titleColor" name="Primary Text"/>
+                                        </state>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="HsA-Ko-iwD" firstAttribute="leading" secondItem="xxh-fD-fu5" secondAttribute="leading" constant="20" id="06J-CL-HuT"/>
                                     <constraint firstItem="RfL-Hn-UcP" firstAttribute="top" secondItem="HsA-Ko-iwD" secondAttribute="bottom" constant="20" id="1rZ-Jo-oOL"/>
                                     <constraint firstItem="Wqu-Oj-LGQ" firstAttribute="top" secondItem="RfL-Hn-UcP" secondAttribute="bottom" constant="7" id="8sl-zU-PtF"/>
-                                    <constraint firstAttribute="trailing" secondItem="o8O-Bk-Ui3" secondAttribute="trailing" constant="20" id="HV9-jy-Rxn"/>
+                                    <constraint firstItem="rrp-QD-DTe" firstAttribute="leading" secondItem="xxh-fD-fu5" secondAttribute="leading" constant="20" id="Ahr-fJ-8NK"/>
                                     <constraint firstAttribute="trailing" secondItem="Wqu-Oj-LGQ" secondAttribute="trailing" constant="20" id="K1b-85-k9M"/>
                                     <constraint firstAttribute="trailing" secondItem="HsA-Ko-iwD" secondAttribute="trailing" constant="20" id="PpJ-WI-b9o"/>
                                     <constraint firstItem="HsA-Ko-iwD" firstAttribute="top" secondItem="xxh-fD-fu5" secondAttribute="top" constant="20" id="RLe-9j-X7p"/>
                                     <constraint firstAttribute="height" constant="246" id="YUZ-zm-hgM"/>
-                                    <constraint firstItem="o8O-Bk-Ui3" firstAttribute="leading" secondItem="xxh-fD-fu5" secondAttribute="leading" constant="20" id="bdR-LC-gQq"/>
-                                    <constraint firstAttribute="bottom" secondItem="o8O-Bk-Ui3" secondAttribute="bottom" constant="20" id="osx-Ww-CRL"/>
+                                    <constraint firstAttribute="trailing" secondItem="rrp-QD-DTe" secondAttribute="trailing" constant="20" id="aXi-4v-rp0"/>
+                                    <constraint firstAttribute="bottom" secondItem="rrp-QD-DTe" secondAttribute="bottom" constant="30" id="gbF-bI-U2d"/>
                                     <constraint firstItem="RfL-Hn-UcP" firstAttribute="leading" secondItem="xxh-fD-fu5" secondAttribute="leading" constant="20" id="pCb-8b-Kxd"/>
                                     <constraint firstAttribute="trailing" secondItem="RfL-Hn-UcP" secondAttribute="trailing" constant="20" id="yV7-xM-K7q"/>
                                 </constraints>
+                                <variation key="displayGamut=sRGB-heightClass=regular-widthClass=compact">
+                                    <mask key="subviews">
+                                        <exclude reference="rrp-QD-DTe"/>
+                                    </mask>
+                                </variation>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -161,5 +171,14 @@
     </scenes>
     <resources>
         <image name="LaunchScreen" width="304" height="153"/>
+        <namedColor name="Primary">
+            <color red="0.62352941176470589" green="0.74117647058823533" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Primary Text">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Secondary Text">
+            <color red="0.76470588235294112" green="0.23921568627450981" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>
