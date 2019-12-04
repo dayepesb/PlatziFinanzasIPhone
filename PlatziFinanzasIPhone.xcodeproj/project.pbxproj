@@ -13,7 +13,8 @@
 		805D3CFD2396C7BA0000B975 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805D3CFC2396C7BA0000B975 /* Profile.storyboard */; };
 		805D3CFF2396C7D90000B975 /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805D3CFE2396C7D90000B975 /* Add.storyboard */; };
 		805D3D012396C90A0000B975 /* Signin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805D3D002396C90A0000B975 /* Signin.storyboard */; };
-		805D3D03239783ED0000B975 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805D3D02239783ED0000B975 /* Colors.xcassets */; };
+		805D3D0723980D3B0000B975 /* PrimaryTheme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805D3D0623980D3B0000B975 /* PrimaryTheme.xcassets */; };
+		805D3D0B239818CC0000B975 /* SocialNetwork.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805D3D0A239818CC0000B975 /* SocialNetwork.xcassets */; };
 		805DB3282395A054001C3138 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805DB3272395A054001C3138 /* AppDelegate.swift */; };
 		805DB32A2395A054001C3138 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805DB3292395A054001C3138 /* ViewController.swift */; };
 		805DB32D2395A054001C3138 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805DB32B2395A054001C3138 /* Main.storyboard */; };
@@ -48,7 +49,8 @@
 		805D3CFC2396C7BA0000B975 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		805D3CFE2396C7D90000B975 /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = "<group>"; };
 		805D3D002396C90A0000B975 /* Signin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Signin.storyboard; sourceTree = "<group>"; };
-		805D3D02239783ED0000B975 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		805D3D0623980D3B0000B975 /* PrimaryTheme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PrimaryTheme.xcassets; sourceTree = "<group>"; };
+		805D3D0A239818CC0000B975 /* SocialNetwork.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SocialNetwork.xcassets; sourceTree = "<group>"; };
 		805DB3242395A054001C3138 /* Platzi Finanzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Platzi Finanzas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		805DB3272395A054001C3138 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		805DB3292395A054001C3138 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,23 @@
 				805D3CFA2396C79B0000B975 /* Budget.storyboard */,
 			);
 			name = Budget;
+			sourceTree = "<group>";
+		};
+		805D3D0823980D420000B975 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				805D3D0623980D3B0000B975 /* PrimaryTheme.xcassets */,
+			);
+			name = Themes;
+			sourceTree = "<group>";
+		};
+		805D3D0923980D4E0000B975 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				805DB32E2395A056001C3138 /* Assets.xcassets */,
+				805D3D0A239818CC0000B975 /* SocialNetwork.xcassets */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 		805DB31B2395A054001C3138 = {
@@ -196,8 +215,8 @@
 		805DB3722395AD81001C3138 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				805DB32E2395A056001C3138 /* Assets.xcassets */,
-				805D3D02239783ED0000B975 /* Colors.xcassets */,
+				805D3D0923980D4E0000B975 /* Image */,
+				805D3D0823980D420000B975 /* Themes */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -377,8 +396,9 @@
 				805DB3322395A056001C3138 /* LaunchScreen.storyboard in Resources */,
 				805DB32F2395A056001C3138 /* Assets.xcassets in Resources */,
 				805DB32D2395A054001C3138 /* Main.storyboard in Resources */,
+				805D3D0723980D3B0000B975 /* PrimaryTheme.xcassets in Resources */,
+				805D3D0B239818CC0000B975 /* SocialNetwork.xcassets in Resources */,
 				805D3CF42396C5930000B975 /* Transactions.storyboard in Resources */,
-				805D3D03239783ED0000B975 /* Colors.xcassets in Resources */,
 				805D3CFD2396C7BA0000B975 /* Profile.storyboard in Resources */,
 				805D3D012396C90A0000B975 /* Signin.storyboard in Resources */,
 				805D3CFF2396C7D90000B975 /* Add.storyboard in Resources */,
