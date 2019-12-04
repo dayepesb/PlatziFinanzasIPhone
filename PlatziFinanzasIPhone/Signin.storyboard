@@ -30,7 +30,7 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xO9-jI-ghL">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" name="Primary"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="200" id="phN-rh-Q1E"/>
                                         </constraints>
@@ -39,11 +39,11 @@
                                         <rect key="frame" x="166.5" y="30" width="81" height="38"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                         <state key="normal" title="SIGN UP">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleColor" name="Primary Text"/>
                                         </state>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" name="Primary"/>
                                 <constraints>
                                     <constraint firstItem="mIN-zI-7Py" firstAttribute="centerY" secondItem="3XK-vg-6tk" secondAttribute="centerY" id="Gym-L7-pST"/>
                                     <constraint firstAttribute="trailing" secondItem="xO9-jI-ghL" secondAttribute="trailing" id="chE-lz-ua1"/>
