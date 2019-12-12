@@ -23,6 +23,17 @@
 		805DB33D2395A056001C3138 /* PlatziFinanzasIPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805DB33C2395A056001C3138 /* PlatziFinanzasIPhoneTests.swift */; };
 		805DB3482395A056001C3138 /* PlatziFinanzasIPhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805DB3472395A056001C3138 /* PlatziFinanzasIPhoneUITests.swift */; };
 		805DB3652395AA39001C3138 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805DB3642395AA39001C3138 /* MapKit.framework */; };
+		807DCFA023A0020800416715 /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807DCF9F23A0020800416715 /* Shadow.swift */; };
+		807DCFA723A028B900416715 /* AvenirNextLTPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 807DCFA423A0284C00416715 /* AvenirNextLTPro-Bold.otf */; };
+		807DCFA823A028BC00416715 /* AvenirNextLTPro-BoldCn.otf in Resources */ = {isa = PBXBuildFile; fileRef = 807DCFA623A0284C00416715 /* AvenirNextLTPro-BoldCn.otf */; };
+		807DCFA923A028BF00416715 /* AvenirNextLTPro-Cn.otf in Resources */ = {isa = PBXBuildFile; fileRef = 807DCFA523A0284C00416715 /* AvenirNextLTPro-Cn.otf */; };
+		807DCFAA23A028C100416715 /* AvenirNextLTPro-MediumCn.otf in Resources */ = {isa = PBXBuildFile; fileRef = 807DCFA223A0284C00416715 /* AvenirNextLTPro-MediumCn.otf */; };
+		807DCFAB23A028C400416715 /* AvenirNextLTPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 807DCFA323A0284C00416715 /* AvenirNextLTPro-Regular.otf */; };
+		807DCFC223A0641200416715 /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807DCFBE23A0641200416715 /* OnBoardingContainerViewController.swift */; };
+		807DCFC323A0641200416715 /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807DCFBF23A0641200416715 /* OnBoarding.storyboard */; };
+		807DCFC423A0641200416715 /* OnBoardingStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807DCFC023A0641200416715 /* OnBoardingStepsViewController.swift */; };
+		807DCFC523A0641200416715 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807DCFC123A0641200416715 /* OnBoardingViewController.swift */; };
+		807DCFC723A18A5A00416715 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807DCFC623A18A5A00416715 /* TransactionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +77,17 @@
 		805DB3492395A056001C3138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		805DB3622395A90C001C3138 /* Produccion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Produccion.entitlements; sourceTree = "<group>"; };
 		805DB3642395AA39001C3138 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		807DCF9F23A0020800416715 /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
+		807DCFA223A0284C00416715 /* AvenirNextLTPro-MediumCn.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AvenirNextLTPro-MediumCn.otf"; path = "../../../../Downloads/avenir next sv/AvenirNextLTPro-MediumCn.otf"; sourceTree = "<group>"; };
+		807DCFA323A0284C00416715 /* AvenirNextLTPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AvenirNextLTPro-Regular.otf"; path = "../../../../Downloads/avenir next sv/AvenirNextLTPro-Regular.otf"; sourceTree = "<group>"; };
+		807DCFA423A0284C00416715 /* AvenirNextLTPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AvenirNextLTPro-Bold.otf"; path = "../../../../Downloads/avenir next sv/AvenirNextLTPro-Bold.otf"; sourceTree = "<group>"; };
+		807DCFA523A0284C00416715 /* AvenirNextLTPro-Cn.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AvenirNextLTPro-Cn.otf"; path = "../../../../Downloads/avenir next sv/AvenirNextLTPro-Cn.otf"; sourceTree = "<group>"; };
+		807DCFA623A0284C00416715 /* AvenirNextLTPro-BoldCn.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AvenirNextLTPro-BoldCn.otf"; path = "../../../../Downloads/avenir next sv/AvenirNextLTPro-BoldCn.otf"; sourceTree = "<group>"; };
+		807DCFBE23A0641200416715 /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnBoardingContainerViewController.swift; path = "../../../../Downloads/interfaces-ios-master/PlatziFinanzas/Application/Authentication/OnBoarding/OnBoardingContainerViewController.swift"; sourceTree = "<group>"; };
+		807DCFBF23A0641200416715 /* OnBoarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = OnBoarding.storyboard; path = "../../../../Downloads/interfaces-ios-master/PlatziFinanzas/Application/Authentication/OnBoarding/OnBoarding.storyboard"; sourceTree = "<group>"; };
+		807DCFC023A0641200416715 /* OnBoardingStepsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnBoardingStepsViewController.swift; path = "../../../../Downloads/interfaces-ios-master/PlatziFinanzas/Application/Authentication/OnBoarding/OnBoardingStepsViewController.swift"; sourceTree = "<group>"; };
+		807DCFC123A0641200416715 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnBoardingViewController.swift; path = "../../../../Downloads/interfaces-ios-master/PlatziFinanzas/Application/Authentication/OnBoarding/OnBoardingViewController.swift"; sourceTree = "<group>"; };
+		807DCFC623A18A5A00416715 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TransactionsViewController.swift; path = Assets.xcassets/TransactionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +182,7 @@
 		805DB3262395A054001C3138 /* PlatziFinanzasIPhone */ = {
 			isa = PBXGroup;
 			children = (
+				807DCF9E23A001E800416715 /* Extensions */,
 				805DB3722395AD81001C3138 /* Resources */,
 				805DB36F2395AC96001C3138 /* Base */,
 				805DB36C2395AC6E001C3138 /* Application */,
@@ -215,6 +238,7 @@
 		805DB3722395AD81001C3138 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				807DCFA123A0282B00416715 /* Fonts */,
 				805D3D0923980D4E0000B975 /* Image */,
 				805D3D0823980D420000B975 /* Themes */,
 			);
@@ -246,6 +270,10 @@
 		805DB3752395ADAA001C3138 /* OnBoarding */ = {
 			isa = PBXGroup;
 			children = (
+				807DCFBF23A0641200416715 /* OnBoarding.storyboard */,
+				807DCFBE23A0641200416715 /* OnBoardingContainerViewController.swift */,
+				807DCFC023A0641200416715 /* OnBoardingStepsViewController.swift */,
+				807DCFC123A0641200416715 /* OnBoardingViewController.swift */,
 			);
 			name = OnBoarding;
 			sourceTree = "<group>";
@@ -262,6 +290,7 @@
 			isa = PBXGroup;
 			children = (
 				805D3CF32396C5930000B975 /* Transactions.storyboard */,
+				807DCFC623A18A5A00416715 /* TransactionsViewController.swift */,
 			);
 			name = Transactions;
 			sourceTree = "<group>";
@@ -281,6 +310,26 @@
 				805DB32B2395A054001C3138 /* Main.storyboard */,
 			);
 			name = Main;
+			sourceTree = "<group>";
+		};
+		807DCF9E23A001E800416715 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				807DCF9F23A0020800416715 /* Shadow.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		807DCFA123A0282B00416715 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				807DCFA423A0284C00416715 /* AvenirNextLTPro-Bold.otf */,
+				807DCFA623A0284C00416715 /* AvenirNextLTPro-BoldCn.otf */,
+				807DCFA523A0284C00416715 /* AvenirNextLTPro-Cn.otf */,
+				807DCFA223A0284C00416715 /* AvenirNextLTPro-MediumCn.otf */,
+				807DCFA323A0284C00416715 /* AvenirNextLTPro-Regular.otf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,16 +441,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				807DCFA823A028BC00416715 /* AvenirNextLTPro-BoldCn.otf in Resources */,
 				805D3CF92396C7780000B975 /* Statics.storyboard in Resources */,
 				805DB3322395A056001C3138 /* LaunchScreen.storyboard in Resources */,
+				807DCFA723A028B900416715 /* AvenirNextLTPro-Bold.otf in Resources */,
 				805DB32F2395A056001C3138 /* Assets.xcassets in Resources */,
 				805DB32D2395A054001C3138 /* Main.storyboard in Resources */,
+				807DCFAB23A028C400416715 /* AvenirNextLTPro-Regular.otf in Resources */,
 				805D3D0723980D3B0000B975 /* PrimaryTheme.xcassets in Resources */,
 				805D3D0B239818CC0000B975 /* SocialNetwork.xcassets in Resources */,
 				805D3CF42396C5930000B975 /* Transactions.storyboard in Resources */,
 				805D3CFD2396C7BA0000B975 /* Profile.storyboard in Resources */,
+				807DCFAA23A028C100416715 /* AvenirNextLTPro-MediumCn.otf in Resources */,
+				807DCFC323A0641200416715 /* OnBoarding.storyboard in Resources */,
 				805D3D012396C90A0000B975 /* Signin.storyboard in Resources */,
 				805D3CFF2396C7D90000B975 /* Add.storyboard in Resources */,
+				807DCFA923A028BF00416715 /* AvenirNextLTPro-Cn.otf in Resources */,
 				805D3CFB2396C79B0000B975 /* Budget.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,8 +482,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				807DCFC723A18A5A00416715 /* TransactionsViewController.swift in Sources */,
+				807DCFC423A0641200416715 /* OnBoardingStepsViewController.swift in Sources */,
+				807DCFA023A0020800416715 /* Shadow.swift in Sources */,
 				805DB32A2395A054001C3138 /* ViewController.swift in Sources */,
+				807DCFC523A0641200416715 /* OnBoardingViewController.swift in Sources */,
 				805DB3282395A054001C3138 /* AppDelegate.swift in Sources */,
+				807DCFC223A0641200416715 /* OnBoardingContainerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
