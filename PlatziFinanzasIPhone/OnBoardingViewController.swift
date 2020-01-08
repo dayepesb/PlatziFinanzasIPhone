@@ -1,9 +1,9 @@
 //
 //  OnBoardingViewController.swift
-//  Platzi Finanzas
+//  PlatziFinanzas
 //
-//  Created by David Yepes Buitrago on 12/10/19.
-//  Copyright © 2019 David Yepes Buitrago. All rights reserved.
+//  Created by Andres Silva on 11/14/18.
+//  Copyright © 2018 Platzi. All rights reserved.
 //
 
 import UIKit
@@ -39,10 +39,10 @@ class OnBoardingViewController: UIPageViewController {
         }
         return items
     }()
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         delegate = self
         dataSource = self
         
@@ -53,7 +53,7 @@ class OnBoardingViewController: UIPageViewController {
     func updateContainerView(stepNumber index: Int) {
         setViewControllers([contentViewController[index]], direction: .forward, animated: true, completion: nil)
     }
-    
+
     func instanteViewController(_ index: Int) -> UIViewController {
         guard let viewController = UIStoryboard(name: "OnBoarding", bundle: Bundle.main)
             .instantiateViewController(withIdentifier: "OnBoardingSteps") as? OnBoardingStepsViewController else {
