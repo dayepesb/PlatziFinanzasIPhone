@@ -34,7 +34,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="UWr-Ss-V6c">
                                         <rect key="frame" x="0.0" y="5" width="414" height="50"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcf-Sm-4vk">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcf-Sm-4vk" userLabel="INCOMINGB">
                                                 <rect key="frame" x="0.0" y="0.0" width="138" height="50"/>
                                                 <state key="normal" title="INCOMING">
                                                     <color key="titleColor" name="Primary Text Color Cells"/>
@@ -109,7 +109,7 @@
                     <navigationItem key="navigationItem" title="Budget" id="R3Q-E4-xD2"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="animationLayout" destination="hcf-Sm-4vk" id="5jT-AB-QSg"/>
+                        <outlet property="animationLayout" destination="awy-h5-YaE" id="eqO-dR-67i"/>
                         <outlet property="tableView" destination="j5n-jG-AeW" id="O3Y-ZQ-L6c"/>
                         <outletCollection property="animationbuttons" destination="hcf-Sm-4vk" collectionClass="NSMutableArray" id="XL9-tS-neU"/>
                         <outletCollection property="animationbuttons" destination="JvX-ET-wYg" collectionClass="NSMutableArray" id="mGO-4Y-uEe"/>

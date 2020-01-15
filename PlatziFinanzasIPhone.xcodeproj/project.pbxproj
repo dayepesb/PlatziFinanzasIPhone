@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12685966D4D89D54BABF3892 /* Pods_Platzi_Finanzas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADAE2C8E2BFB7D001F85386 /* Pods_Platzi_Finanzas.framework */; };
 		805D3CF42396C5930000B975 /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805D3CF32396C5930000B975 /* Transactions.storyboard */; };
 		805D3CF92396C7780000B975 /* Statics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805D3CF82396C7780000B975 /* Statics.storyboard */; };
 		805D3CFB2396C79B0000B975 /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805D3CFA2396C79B0000B975 /* Budget.storyboard */; };
@@ -36,49 +35,21 @@
 		809F388323CE4D35008354C0 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809F388223CE4D35008354C0 /* TabBarViewController.swift */; };
 		809F388623CE5376008354C0 /* TransactionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 809F388523CE5376008354C0 /* TransactionCell.xib */; };
 		809F388823CE5510008354C0 /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809F388723CE5510008354C0 /* BudgetViewController.swift */; };
-		809F388C23CF6523008354C0 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 809F388B23CF6523008354C0 /* Cartfile */; };
-		809F388E23CF66A4008354C0 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809F388D23CF66A4008354C0 /* Lottie.framework */; };
-		809F388F23CF66A4008354C0 /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 809F388D23CF66A4008354C0 /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		809F389023CF66A4008354C0 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				809F388F23CF66A4008354C0 /* Lottie.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		809F389123CF672E008354C0 /* Cartage */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 7;
-			files = (
-			);
-			name = Cartage;
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		254FE09B5CCC2908869B952E /* Pods-Platzi Finanzas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Platzi Finanzas.debug.xcconfig"; path = "Target Support Files/Pods-Platzi Finanzas/Pods-Platzi Finanzas.debug.xcconfig"; sourceTree = "<group>"; };
 		805D3CF32396C5930000B975 /* Transactions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Transactions.storyboard; sourceTree = "<group>"; };
 		805D3CF82396C7780000B975 /* Statics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Statics.storyboard; sourceTree = "<group>"; };
 		805D3CFA2396C79B0000B975 /* Budget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Budget.storyboard; sourceTree = "<group>"; };
 		805D3CFC2396C7BA0000B975 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		805D3CFE2396C7D90000B975 /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = "<group>"; };
 		805D3D002396C90A0000B975 /* Signin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Signin.storyboard; sourceTree = "<group>"; };
-		805D3D0623980D3B0000B975 /* PrimaryTheme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PrimaryTheme.xcassets; sourceTree = "<group>"; };
+		805D3D0623980D3B0000B975 /* PrimaryTheme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = PrimaryTheme.xcassets; path = PlatziFinanzasIPhone/PrimaryTheme.xcassets; sourceTree = SOURCE_ROOT; };
 		805D3D0A239818CC0000B975 /* SocialNetwork.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SocialNetwork.xcassets; sourceTree = "<group>"; };
 		805DB3242395A054001C3138 /* Platzi Finanzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Platzi Finanzas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		805DB3272395A054001C3138 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		805DB32C2395A054001C3138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		805DB32E2395A056001C3138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		805DB32E2395A056001C3138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = PlatziFinanzasIPhone/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		805DB3312395A056001C3138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		805DB3332395A056001C3138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		805DB33C2395A056001C3138 /* PlatziFinanzasIPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatziFinanzasIPhoneTests.swift; sourceTree = "<group>"; };
@@ -99,14 +70,11 @@
 		807DCFC123A0641200416715 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		807DCFC623A18A5A00416715 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TransactionsViewController.swift; path = Assets.xcassets/TransactionsViewController.swift; sourceTree = "<group>"; };
 		809F387E23CE3681008354C0 /* EmptyState.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyState.xib; sourceTree = "<group>"; };
-		809F388023CE43F4008354C0 /* TabBar.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TabBar.xcassets; sourceTree = "<group>"; };
+		809F388023CE43F4008354C0 /* TabBar.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = TabBar.xcassets; path = PlatziFinanzasIPhone/TabBar.xcassets; sourceTree = SOURCE_ROOT; };
 		809F388223CE4D35008354C0 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		809F388523CE5376008354C0 /* TransactionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionCell.xib; sourceTree = SOURCE_ROOT; };
 		809F388723CE5510008354C0 /* BudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
-		809F388B23CF6523008354C0 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		809F388D23CF66A4008354C0 /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
-		EF6FF88C2B56FD08D97859F6 /* Pods-Platzi Finanzas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Platzi Finanzas.release.xcconfig"; path = "Target Support Files/Pods-Platzi Finanzas/Pods-Platzi Finanzas.release.xcconfig"; sourceTree = "<group>"; };
-		FADAE2C8E2BFB7D001F85386 /* Pods_Platzi_Finanzas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Platzi_Finanzas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12685966D4D89D54BABF3892 /* Pods_Platzi_Finanzas.framework in Frameworks */,
-				809F388E23CF66A4008354C0 /* Lottie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,7 +134,6 @@
 		805DB31B2395A054001C3138 = {
 			isa = PBXGroup;
 			children = (
-				809F388B23CF6523008354C0 /* Cartfile */,
 				805DB3622395A90C001C3138 /* Produccion.entitlements */,
 				805DB3262395A054001C3138 /* PlatziFinanzasIPhone */,
 				805DB33B2395A056001C3138 /* PlatziFinanzasIPhoneTests */,
@@ -220,7 +185,6 @@
 			children = (
 				809F388D23CF66A4008354C0 /* Lottie.framework */,
 				805DB3642395AA39001C3138 /* MapKit.framework */,
-				FADAE2C8E2BFB7D001F85386 /* Pods_Platzi_Finanzas.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -347,8 +311,6 @@
 		A761E2A831A713C806CDDAB5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				254FE09B5CCC2908869B952E /* Pods-Platzi Finanzas.debug.xcconfig */,
-				EF6FF88C2B56FD08D97859F6 /* Pods-Platzi Finanzas.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -360,13 +322,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 805DB34C2395A056001C3138 /* Build configuration list for PBXNativeTarget "Platzi Finanzas" */;
 			buildPhases = (
-				3966A831D86B37B6150AE770 /* [CP] Check Pods Manifest.lock */,
 				805DB3202395A054001C3138 /* Sources */,
 				805DB3212395A054001C3138 /* Frameworks */,
 				805DB3222395A054001C3138 /* Resources */,
-				4D0A93248B7A43AE8499FB36 /* [CP] Embed Pods Frameworks */,
-				809F389023CF66A4008354C0 /* Embed Frameworks */,
-				809F389123CF672E008354C0 /* Cartage */,
 			);
 			buildRules = (
 			);
@@ -440,53 +398,10 @@
 				805D3CFF2396C7D90000B975 /* Add.storyboard in Resources */,
 				807DCFA923A028BF00416715 /* AvenirNextLTPro-Cn.otf in Resources */,
 				805D3CFB2396C79B0000B975 /* Budget.storyboard in Resources */,
-				809F388C23CF6523008354C0 /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		3966A831D86B37B6150AE770 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Platzi Finanzas-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4D0A93248B7A43AE8499FB36 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Platzi Finanzas/Pods-Platzi Finanzas-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Platzi Finanzas/Pods-Platzi Finanzas-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Platzi Finanzas/Pods-Platzi Finanzas-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		805DB3202395A054001C3138 /* Sources */ = {
@@ -644,7 +559,6 @@
 		};
 		805DB34D2395A056001C3138 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 254FE09B5CCC2908869B952E /* Pods-Platzi Finanzas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -667,7 +581,6 @@
 		};
 		805DB34E2395A056001C3138 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF6FF88C2B56FD08D97859F6 /* Pods-Platzi Finanzas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
