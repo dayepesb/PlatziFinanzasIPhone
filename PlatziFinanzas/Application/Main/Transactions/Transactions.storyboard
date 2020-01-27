@@ -51,7 +51,14 @@
         <scene sceneID="ozt-D4-8Zw">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1oU-J2-W4x" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="TabBarTransactions" id="6Ha-V2-4th"/>
+                    <tabBarItem key="tabBarItem" title="" image="TabBarTransactions" id="6Ha-V2-4th">
+                        <color key="badgeColor" name="GreenColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" name="GreenColor"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" largeTitles="YES" id="dXQ-JS-BqL">
@@ -83,4 +90,5 @@
             <color red="0.62352941176470589" green="0.74117647058823533" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
+    <color key="tintColor" name="GreenColor"/>
 </document>
