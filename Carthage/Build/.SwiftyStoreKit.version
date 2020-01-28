@@ -1,0 +1,10 @@
+{
+  "commitish" : "0.15.0",
+  "iOS" : [
+    {
+      "name" : "SwiftyStoreKit",
+      "hash" : "28cade5632414aa867da799835cbf68b5def9fccb1cb33c81b29db786d782c99",
+      "swiftToolchainVersion" : "5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+    }
+  ]
+}
