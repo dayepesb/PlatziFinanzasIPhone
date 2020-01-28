@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>976214416002-bfo3aqgmjfatuefgj1ceb2hns3r8i4re.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.976214416002-bfo3aqgmjfatuefgj1ceb2hns3r8i4re</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCaY6KbULSLGZwRGlgsoO7AI8n-k7X4OMQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>976214416002</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.platzi.yepes.PlatziFinanzas</string>
+	<key>PROJECT_ID</key>
+	<string>platzifinanzas-c4bf1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>platzifinanzas-c4bf1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:976214416002:ios:45321b8113a92a1710329b</string>
+	<key>DATABASE_URL</key>
+	<string>https://platzifinanzas-c4bf1.firebaseio.com</string>
+</dict>
+</plist>

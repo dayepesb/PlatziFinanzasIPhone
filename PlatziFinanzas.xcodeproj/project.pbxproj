@@ -17,6 +17,8 @@
 		8063E9BE23DFF7830033ECAF /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8063E9B823DFF7830033ECAF /* Person.swift */; };
 		8063E9BF23DFF7830033ECAF /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8063E9B923DFF7830033ECAF /* Transaction.swift */; };
 		8063E9C023DFF7830033ECAF /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8063E9BA23DFF7830033ECAF /* Account.swift */; };
+		80FFB6A723E0D3F800C880F0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80FFB6A623E0D3F800C880F0 /* GoogleService-Info.plist */; };
+		80FFB6A923E0D5D300C880F0 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FFB6A823E0D5D300C880F0 /* SigninViewController.swift */; };
 		829AD8D2D45765A81CB9F5FE /* Pods_PlatziFinanzas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81214069743D724E1AC479D1 /* Pods_PlatziFinanzas.framework */; };
 		9F03432F219C57E300603993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F03432E219C57E300603993 /* AppDelegate.swift */; };
 		9F034334219C57E300603993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F034332219C57E300603993 /* Main.storyboard */; };
@@ -81,6 +83,8 @@
 		8063E9B823DFF7830033ECAF /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		8063E9B923DFF7830033ECAF /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		8063E9BA23DFF7830033ECAF /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		80FFB6A623E0D3F800C880F0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		80FFB6A823E0D5D300C880F0 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
 		81214069743D724E1AC479D1 /* Pods_PlatziFinanzas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlatziFinanzas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8836A3C2908FBA4744E20FE5 /* Pods-PlatziFinanzasCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlatziFinanzasCore.release.xcconfig"; path = "Target Support Files/Pods-PlatziFinanzasCore/Pods-PlatziFinanzasCore.release.xcconfig"; sourceTree = "<group>"; };
 		9F03432B219C57E300603993 /* PlatziFinanzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatziFinanzas.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -207,6 +211,7 @@
 		9F449FE1219C601C0050784B /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				80FFB6A623E0D3F800C880F0 /* GoogleService-Info.plist */,
 				9F03432E219C57E300603993 /* AppDelegate.swift */,
 				9F03433A219C57E400603993 /* Info.plist */,
 				9F034337219C57E400603993 /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 			isa = PBXGroup;
 			children = (
 				9FDFDF12219C6F4A00CD505D /* SignIn.storyboard */,
+				80FFB6A823E0D5D300C880F0 /* SigninViewController.swift */,
 			);
 			path = "Sign In";
 			sourceTree = "<group>";
@@ -461,6 +467,7 @@
 			files = (
 				9FB06216219DD12F00EEB1A9 /* Cartfile in Resources */,
 				9FDFDF07219C6D6500CD505D /* Profile.storyboard in Resources */,
+				80FFB6A723E0D3F800C880F0 /* GoogleService-Info.plist in Resources */,
 				9FE368C7219CCB3100606E29 /* EmptyState.xib in Resources */,
 				9FF2782A219C7E830083760B /* Colors.xcassets in Resources */,
 				9F034339219C57E400603993 /* LaunchScreen.storyboard in Resources */,
@@ -603,6 +610,7 @@
 				9F62FD2A219CB19D00A83344 /* OnBoardingContainerViewController.swift in Sources */,
 				9F62FD2C219CB23100A83344 /* OnBoardingViewController.swift in Sources */,
 				9FE368CF219DADCA00606E29 /* BudgetViewController.swift in Sources */,
+				80FFB6A923E0D5D300C880F0 /* SigninViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -841,7 +849,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.PlatziFinanzas;
+				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.yepes.PlatziFinanzas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -866,7 +874,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.PlatziFinanzas;
+				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.yepes.PlatziFinanzas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
