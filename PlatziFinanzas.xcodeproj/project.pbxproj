@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -31,9 +31,6 @@
 		9FB06216219DD12F00EEB1A9 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 9FB06215219DD12F00EEB1A9 /* Cartfile */; };
 		9FB06218219DD18800EEB1A9 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB06217219DD18800EEB1A9 /* Lottie.framework */; };
 		9FB0621A219DD18F00EEB1A9 /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB06217219DD18800EEB1A9 /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9FCF77A0219DD4FA00BCF51B /* Lottie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF779F219DD4FA00BCF51B /* Lottie.storyboard */; };
-		9FCF77A2219DD52D00BCF51B /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCF77A1219DD52D00BCF51B /* LottieViewController.swift */; };
-		9FCF77A4219DD59C00BCF51B /* day_of_the_dead_skull.json in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF77A3219DD59C00BCF51B /* day_of_the_dead_skull.json */; };
 		9FDFDF05219C6CD500CD505D /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDFDF04219C6CD500CD505D /* Transactions.storyboard */; };
 		9FDFDF07219C6D6500CD505D /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDFDF06219C6D6500CD505D /* Profile.storyboard */; };
 		9FDFDF0B219C6D9E00CD505D /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDFDF0A219C6D9E00CD505D /* Statistics.storyboard */; };
@@ -102,9 +99,6 @@
 		9F62FD2F219CC47100A83344 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 		9FB06215219DD12F00EEB1A9 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		9FB06217219DD18800EEB1A9 /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
-		9FCF779F219DD4FA00BCF51B /* Lottie.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lottie.storyboard; sourceTree = "<group>"; };
-		9FCF77A1219DD52D00BCF51B /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
-		9FCF77A3219DD59C00BCF51B /* day_of_the_dead_skull.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = day_of_the_dead_skull.json; sourceTree = "<group>"; };
 		9FDFDF04219C6CD500CD505D /* Transactions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Transactions.storyboard; sourceTree = "<group>"; };
 		9FDFDF06219C6D6500CD505D /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		9FDFDF0A219C6D9E00CD505D /* Statistics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Statistics.storyboard; sourceTree = "<group>"; };
@@ -204,7 +198,6 @@
 		9F449FE0219C60080050784B /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				9FCF779E219DD4E800BCF51B /* Animation */,
 				9F449FE5219C606F0050784B /* Main */,
 				9F449FE4219C60610050784B /* Authentication */,
 			);
@@ -315,16 +308,6 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		9FCF779E219DD4E800BCF51B /* Animation */ = {
-			isa = PBXGroup;
-			children = (
-				9FCF77A3219DD59C00BCF51B /* day_of_the_dead_skull.json */,
-				9FCF779F219DD4FA00BCF51B /* Lottie.storyboard */,
-				9FCF77A1219DD52D00BCF51B /* LottieViewController.swift */,
-			);
-			path = Animation;
-			sourceTree = "<group>";
-		};
 		9FDFDF08219C6D6E00CD505D /* Budget */ = {
 			isa = PBXGroup;
 			children = (
@@ -366,7 +349,6 @@
 				7856440E077055FA49BF94EF /* Pods-PlatziFinanzasCore.debug.xcconfig */,
 				8836A3C2908FBA4744E20FE5 /* Pods-PlatziFinanzasCore.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -438,10 +420,11 @@
 				TargetAttributes = {
 					8063E9A823DFF76D0033ECAF = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1120;
 					};
 					9F03432A219C57E300603993 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -487,10 +470,8 @@
 				9FDFDF13219C6F4A00CD505D /* SignIn.storyboard in Resources */,
 				9FE368CD219DAD5E00606E29 /* TransactionsCell.xib in Resources */,
 				9F034334219C57E300603993 /* Main.storyboard in Resources */,
-				9FCF77A4219DD59C00BCF51B /* day_of_the_dead_skull.json in Resources */,
 				9FDFDF0B219C6D9E00CD505D /* Statistics.storyboard in Resources */,
 				9FDFDF05219C6CD500CD505D /* Transactions.storyboard in Resources */,
-				9FCF77A0219DD4FA00BCF51B /* Lottie.storyboard in Resources */,
 				9F62FD28219CAEE500A83344 /* OnBoarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -618,7 +599,6 @@
 				9F62FD24219C914700A83344 /* Shadow.swift in Sources */,
 				9F62FD2E219CB4FA00A83344 /* OnBoardingStepsViewController.swift in Sources */,
 				9F03432F219C57E300603993 /* AppDelegate.swift in Sources */,
-				9FCF77A2219DD52D00BCF51B /* LottieViewController.swift in Sources */,
 				9FE368CB219DAA7400606E29 /* TabBarViewController.swift in Sources */,
 				9F62FD2A219CB19D00A83344 /* OnBoardingContainerViewController.swift in Sources */,
 				9F62FD2C219CB23100A83344 /* OnBoardingViewController.swift in Sources */,
@@ -689,7 +669,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -720,7 +700,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = co.com.yepes.PlatziFinanzasCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -863,7 +843,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.PlatziFinanzas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -888,7 +868,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.PlatziFinanzas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
