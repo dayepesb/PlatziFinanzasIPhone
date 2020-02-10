@@ -8,19 +8,77 @@
 
 import UIKit
 import Firebase
+import FBSDKLoginKit
+import GoogleSignIn
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
+    
+    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error?) {
+      // ...
+      if let error = error {
+        
+       let alert = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .alert)
+       let ok = UIAlertAction(title: "Ok", style: .default, handler: nil)
+       alert.addAction(ok)
+       
+
+        return
+      }
+
+      guard let authentication = user.authentication else { return }
+      let credential = GoogleAuthProvider.credential(withIDToken: authentication.idToken,
+                                                        accessToken: authentication.accessToken)
+      
+        
+        Auth.auth().signIn(with: credential) { (authResult, error) in
+          if let error = error {
+            
+            let alert = UIAlertController(title: "Error", message: error.localizedDescription, preferredStyle: .alert)
+            let ok = UIAlertAction(title: "Ok", style: .default, handler: nil)
+            alert.addAction(ok)
+            
+            
+            return
+          }
+            
+        }
+    }
+    
 
     var window: UIWindow?
+
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         FirebaseApp.configure()
         
+        GIDSignIn.sharedInstance().clientID = FirebaseApp.app()?.options.clientID
+        
+        GIDSignIn.sharedInstance().delegate = self
+        
+        ApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
+        
         onBoardingDisplay()
         
         return true
+    }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        if ApplicationDelegate.shared.application(app, open: url, options: options) {
+            return true
+        }
+        
+        return GIDSignIn.sharedInstance().handle(url)
+
+    }
+    
+    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {    return GIDSignIn.sharedInstance().handle(url)
+    }
+    
+    func applicationDidFinishLaunching(_ application: UIApplication) {
+        // Use Firebase library to configure APIs
+        FirebaseApp.configure()
     }
     
     fileprivate func onBoardingDisplay() {
@@ -61,7 +119,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
 
 }
 

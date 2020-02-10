@@ -10,10 +10,11 @@ target 'PlatziFinanzas' do
   pod 'Fabric'
   pod 'Crashlytics'
   pod 'Firebase/Auth'
+  pod 'GoogleSignIn'
   pod 'Firebase/Messaging'
   pod 'Firebase/Firestore'
   pod 'Firebase/InAppMessagingDisplay'
-  pod 'FBSDKLoginKit'
+  pod 'AccountKit'
 
 
 end

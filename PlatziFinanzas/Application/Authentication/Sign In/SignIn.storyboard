@@ -70,6 +70,9 @@
                                                 <integer key="value" value="10"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="facebookLogin:" destination="kMW-HX-DTW" eventType="touchUpInside" id="XvO-wy-gth"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9lo-ea-WHf">
                                         <rect key="frame" x="102" y="0.0" width="86" height="50"/>
@@ -96,6 +99,10 @@
                                                 <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="sewedas:forEvent:" destination="kMW-HX-DTW" eventType="touchUpInside" id="0c1-Lf-yss"/>
+                                            <action selector="sigInGoogle:" destination="kMW-HX-DTW" eventType="touchUpInside" id="NEs-mf-oXK"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bod-lp-hR9">
                                         <rect key="frame" x="204" y="0.0" width="86" height="50"/>
@@ -211,6 +218,7 @@
                     <connections>
                         <outlet property="emailTextField" destination="oog-lV-NiC" id="vRa-dY-9f1"/>
                         <outlet property="passwordTextField" destination="bP2-vK-jm9" id="hFL-qv-YZG"/>
+                        <outlet property="signInButtonGoogle" destination="9lo-ea-WHf" id="pNm-Cf-yWt"/>
                         <segue destination="xot-u3-Aob" kind="modal" identifier="goToMain" modalPresentationStyle="currentContext" modalTransitionStyle="crossDissolve" id="FY7-US-01A"/>
                     </connections>
                 </viewController>
